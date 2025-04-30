@@ -1,0 +1,31 @@
+// Palavras-chave e tipos
+int main() {
+    char letra = 'A';
+    int numero = 42;
+    void* ptr;
+    struct Pessoa {
+        int idade;
+    };
+    if (numero > 10) {
+        return;
+    } else {
+        while (numero < 100) {
+            numero = numero + 1;
+        }
+    }
+}
+
+// Strings e operadores
+char* nome = "Igor_123!";
+int soma = 10 + 20;
+int valido = (soma >= 30) && (numero != 0);
+
+// Delimitadores e atribuições
+long lista[10] = {1, 2, 3, 4, 5};
+short contador = 0;
+contador = contador + 1;
+
+// Casos inválidos
+123nome        // identificador inválido (começa com número)
+"string com quebra
+de linha"       // string inválida
